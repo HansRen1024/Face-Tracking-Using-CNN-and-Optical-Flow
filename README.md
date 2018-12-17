@@ -6,6 +6,8 @@ This version of TLD below is faster and more stable than that in OpenCV. I delet
 
 ### Installing
 
+Reset your ncnn path in CMakeLists.txt.
+
 ```shell
 mkdir build
 cd build
