@@ -52,7 +52,7 @@ void Impl::Detect(cv::Rect& result, cv::Mat& img, int& detNumToTack){
 		pbox.height =finalBbox[0].y2-finalBbox[0].y1;
 		result=pbox;
 		if (mtcnn.rnet(img, pbox)<0.98){
-			skip=0
+			skip=0;
 			finalBbox.clear();
 		}
 		swap(last_gray,current_gray);
