@@ -43,7 +43,6 @@ void Impl::Detect(cv::Rect& result, cv::Mat& img, int& detNumToTack){
 			cvtColor(img, last_gray, CV_RGB2GRAY);
 			tld.init(last_gray,box);
 			status=true;
-			skip=0;
 		}
 	}
 	if (skip>detNumToTack){
@@ -52,7 +51,10 @@ void Impl::Detect(cv::Rect& result, cv::Mat& img, int& detNumToTack){
 		pbox.width = finalBbox[0].x2-finalBbox[0].x1;
 		pbox.height =finalBbox[0].y2-finalBbox[0].y1;
 		result=pbox;
-		if (mtcnn.rnet(img, pbox)<0.98) finalBbox.clear();
+		if (mtcnn.rnet(img, pbox)<0.98){
+			skip=0
+			finalBbox.clear();
+		}
 		swap(last_gray,current_gray);
 	}
 	pts1.clear();
