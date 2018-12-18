@@ -6,6 +6,8 @@ This version of TLD below is faster and more stable than that in OpenCV. I delet
 
 ### Installing
 
+OpenCV 2.4.X is required!
+
 Reset your ncnn path in CMakeLists.txt.
 
 ```shell
