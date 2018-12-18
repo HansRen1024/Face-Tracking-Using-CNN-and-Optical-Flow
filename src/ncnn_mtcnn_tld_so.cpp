@@ -48,13 +48,13 @@ void Impl::Detect(cv::Rect& result, cv::Mat& img, int& detNumToTack){
 	if (skip>detNumToTack){
 		cvtColor(img, current_gray, CV_BGR2GRAY);
 		tld.processFrame(last_gray,current_gray,pts1,pts2,pbox,status,true);
-		pbox.width = finalBbox[0].x2-finalBbox[0].x1;
-		pbox.height =finalBbox[0].y2-finalBbox[0].y1;
-		result=pbox;
+		pbox.width = box.width;
+		pbox.height = box.height;
 		if (mtcnn.rnet(img, pbox)<0.98){
 			skip=0;
 			finalBbox.clear();
 		}
+		else result=pbox;
 		swap(last_gray,current_gray);
 	}
 	pts1.clear();
