@@ -1,6 +1,6 @@
 ### 2018.12.20 IMPORTANT UPDATE
 
-I did extremely optimization that I can for OpenTLD, all useless contents were removed. This time, tracking speed is about **3ms**. Besides, I deleted initialization funtion and OpenCV 3.x is supported now. 
+I extremely optimized OpenTLD, all useless contents were removed. This time, tracking speed is about **3ms**. Besides, I deleted initialization funtion and OpenCV 3.x is supported now. 
 
 ### Face-Tracking-Based-on-OpenTLD-and-RNet
 
