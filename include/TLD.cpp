@@ -104,7 +104,7 @@ bool TLD::filterPts(vector<Point2f>& points1,vector<Point2f>& points2){
   size_t i, k;
   for( i=k = 0; i<points2.size(); ++i ){
         if( !status[i])continue;
-        if(similarity[i]> simmed){
+        if(similarity[i]>= simmed){
           points1[k] = points1[i];
           points2[k] = points2[i];
           FB_error[k] = FB_error[i];
