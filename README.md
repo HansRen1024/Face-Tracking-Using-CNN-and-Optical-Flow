@@ -35,6 +35,8 @@ cd ..
 
 ### References
 
+https://github.com/Tencent/ncnn
+
 https://github.com/CongWeilin/mtcnn-caffe
 
 https://github.com/alantrrs/OpenTLD
