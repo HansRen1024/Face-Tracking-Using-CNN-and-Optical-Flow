@@ -15,8 +15,11 @@ void TLD::processFrame(const cv::Mat& img1,const cv::Mat& img2,cv::Rect& bbnext,
   points2.clear();
   if(lastboxfound) track(img1,img2);
   else tracked = false;
-  if (tracked)bbnext=tbb;
-  lastbox=bbnext;
+  if (tracked){
+	  bbnext=tbb;
+	  lastbox=bbnext;
+  }
+  else lastboxfound = false;
 }
 void TLD::track(const Mat& img1, const Mat& img2){
   bbPoints(lastbox);
