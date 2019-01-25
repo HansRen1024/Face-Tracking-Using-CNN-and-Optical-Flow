@@ -1,6 +1,6 @@
 ### 2019.01.25 UPDATE
 
-Many people do not familiar with NCNN, and compile this repo with an error that could not find net.h. Please move on https://github.com/Tencent/ncnn to find what is NCNN and how to install it.
+Many people do not familiar with NCNN, and compile this repo with an error that **could not find net.h**. Please move on https://github.com/Tencent/ncnn to find what is NCNN and how to install it.
 
 ### 2018.12.20 IMPORTANT UPDATE
 
@@ -18,7 +18,7 @@ This version of TLD below is faster and more stable than that in OpenCV. I delet
 
 ### Installing
 
-OpenCV 2.4.X is required!(Now OpenCV 3.x supported)
+OpenCV 2.4.X is required!(Now OpenCV 3.x is supported)
 
 Install NCNN firstly, and reset your NCNN path in CMakeLists.txt.
 
