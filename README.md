@@ -8,7 +8,7 @@ I extremely optimized OpenTLD, all useless contents were removed. This time, tra
 
 RK3399 20+ms/frame
 
-### Face-Tracking-Based-on-OpenTLD-and-RNet
+### Face-Tracking-Using-Optical-Flow-and-CNN
 
 I optimized OpenTLD making it run faster and better for face tracking.
 
