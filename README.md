@@ -1,3 +1,5 @@
+### 2021.05.10 Pytorch version will be released soon.
+
 ### 2019.01.25 UPDATE
 
 Many people are not familiar with NCNN, and compile this repo with an error that **could not find net.h**. Please move to https://github.com/Tencent/ncnn to find what is NCNN and how to install it.
