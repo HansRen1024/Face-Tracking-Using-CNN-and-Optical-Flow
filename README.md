@@ -35,9 +35,9 @@ cd ..
 
 ### Examples
 
-![image](https://github.com/HandsomeHans/Face-Tracking-Based-on-OpenTLD-and-RNet/blob/master/example/saved_1.gif)
+![image](https://github.com/HandsomeHans/Face-Tracking-Based-on-OpenTLD-and-RNet/blob/C++/example/saved_1.gif)
 
-![image](https://github.com/HandsomeHans/Face-Tracking-Based-on-OpenTLD-and-RNet/blob/master/example/saved_.gif)
+![image](https://github.com/HandsomeHans/Face-Tracking-Based-on-OpenTLD-and-RNet/blob/C++/example/saved_.gif)
 
 ### References
 
