@@ -4,7 +4,7 @@
 
 ### 2019.01.25 UPDATE
 
-Many people are not familiar with NCNN, and compile this repo with an error that **could not find net.h**. Please move to https://github.com/Tencent/ncnn to find what is NCNN and how to install it.
+Many people are not familiar with ncnn, and compile this repo with an error of **could not find net.h**. Please move to https://github.com/Tencent/ncnn to find what is ncnn and how to install it. Download the version we used from https://github.com/Tencent/ncnn/archive/refs/tags/20180830.zip.
 
 ### 2018.12.20 IMPORTANT UPDATE
 
