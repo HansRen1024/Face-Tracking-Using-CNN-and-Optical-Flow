@@ -44,8 +44,8 @@ void Impl::Detect(cv::Rect& result, cv::Mat& img){
 		tld.processFrame(last_gray,current_gray,pbox,status);
 		printf("tracking  %gms\n", ((double)getTickCount()-t2)*1000/getTickFrequency());
 		if(status){
-			pbox.width = box.width;
-			pbox.height = box.height;
+// 			pbox.width = box.width;
+// 			pbox.height = box.height;
 			if (skip>2){
 				double t1 = (double)getTickCount();
 				if (mtcnn.rnet(img, pbox)<0.99)finalBbox.clear();
