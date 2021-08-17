@@ -1,4 +1,4 @@
-### 2021.06.06 Pytorch version: https://github.com/HandsomeHans/C-OF.
+### 2021.06.06 Pytorch version: https://github.com/HandsomeHans/C-OF. Code is released (20210816).
 
 ### 2021.05.10 Pytorch version will be released soon.
 
