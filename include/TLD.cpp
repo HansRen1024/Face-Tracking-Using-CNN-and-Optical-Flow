@@ -1,4 +1,5 @@
 #include "TLD.h"
+#include <math.h>
 using namespace cv;
 using namespace std;
 float median(vector<float> v){
@@ -58,7 +59,7 @@ void TLD::bbPredict(const cv::Rect& bb1,cv::Rect& bb2){
       d.reserve(npoints*(npoints-1)/2);
       for (int i=0;i<npoints;i++){
           for (int j=i+1;j<npoints;j++)
-            d.push_back(norm(points2[i]-points2[j])/norm(points1[i]-points1[j]));
+            d.push_back(sqrt(norm(points2[i]-points2[j]))/sqrt(norm(points1[i]-points1[j])));
       }
       s = median(d);
   }
